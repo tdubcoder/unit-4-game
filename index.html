@@ -1,12 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Crystals Collector</title>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script  src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    </head>
 <body>
-    
+    <div class="w-25 p-2">
+        <div class="row">
+            <div class="col-sm">
+                <h1>CrystalsCollector!</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-50 p-2">
+        <div class ="row">
+            <div class="col-sm">
+                <br>
+                <p>You will be given a random number at the start of the game.<br><br>
+                There are four crystals below. By clicking on the crystal you will ad a specific amount of points to your total score.<br><br>
+                You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.<br><br>
+                The value of each crystal is hidden from you until you click on it.<br><br>
+                Each time when the game starts, the game will change the values of each crystal.<br><br>
+                </p>
+            </div>
+        </div>  
+    </div>
+   
+    <div class="row status">
+        
+        <div class="col-sm-2" id="randomNumber">
+        </div>
+        
+        <div class="col-sm-1 gameStats">
+            
+            <p id="winOrLose"></p>
+            <p id="wins">Wins: 0</p>
+            <p id="losses">Losses: 0</p>
+
+        </div>
+    </div>
+
+    <div class="row">
+
+        <img id="stone1" src="assets/images/diamond.jpeg" class="image">
+        <img id="stone2" src="assets/images/emerald.jpg" class="image">
+        <img id="stone3" src="assets/images/ruby.jpeg" class="image">
+        <img id="stone4" src="assets/images/sapphire.jpg"class="image">
+
+    </div>
+
+    <div class= "row">
+
+        <div class="col-sm-2 score">
+
+            <p>Your total score is: </p>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-sm-2 scoreCount" id="score">0
+
+        </div>
+    </div>
+
+    <script type = "text/javascript" src="assets/javascript/game.js"></script>    
 </body>
 </html>

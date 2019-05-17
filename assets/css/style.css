@@ -1,0 +1,83 @@
+body{
+
+    background-image: url("../images/background.png.png");
+    font-family:'Times New Roman', Times, serif;
+}
+
+.w-25{
+    background-color: chocolate;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 100px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    display:flex;
+    align-items: center;
+}
+
+.w-50{
+    background-color:burlywood;
+    color:green;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 400px;
+    font-weight: bold;
+    padding-left:10px;
+}
+
+#randomNumber{
+    background-color:rgb(88, 214, 136);
+    margin-top:10px;
+    margin-left:25px;
+    padding:10px;
+    height: 120px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.gameStats{
+    background-color:aqua;
+    margin:10px;
+    padding-top: 5px;
+    height:120px;
+    font-weight:bold;
+    font-size: 18px;
+    
+ 
+
+}
+
+.image{
+    margin-top: 0px;
+    margin-left: 25px;
+    width: 80px;
+    height: 80px;
+
+}
+
+.score{
+    background-color:teal;
+    margin-left:25px;
+    margin-top: 10px;
+    height: 25px;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+.scoreCount{
+    background-color:teal;
+    margin-left: 25px;
+    margin-top: 10px;
+    height: 100px;
+    font-size: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
